@@ -7,7 +7,7 @@ scala:
 # whitelist branches for now.  need backport branch to support 2.8.x
 branches:
   only:
-    - master
+    - salat_2.10.RC3
 # use sbt-extras runner instead of stock Travis CI sbt version
 script: sh ./scripts/travis.sh
 notifications:
