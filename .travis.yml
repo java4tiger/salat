@@ -3,6 +3,7 @@ language: scala
 scala:
   - 2.9.2
   - 2.9.1
+  - 2.10.0-RC5
 # whitelist branches for now.  need backport branch to support 2.8.x
 branches:
   only:
@@ -12,7 +13,7 @@ script: sh ./scripts/travis.sh
 notifications:
   email:
     recipients:
-      - prasinous@gmail.com
+      - java4tiger@gmail.com
 jdk:
   - openjdk6
 # these seem to segfault 2/3 of the time, need to understand why
